@@ -7,7 +7,7 @@
 	<link rel="stylesheet" type="text/css" href="resources/css/Home.css">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css"><!-- 헤더  -->
   	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"><!-- 헤더  --> 
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"><!-- footer -->
 </head>
 
 <header>
@@ -29,7 +29,11 @@
     <div class="I_BOX">
       <h1 class="I_logo">
         <a>
+<<<<<<< HEAD
           <img src="resources/img/home/MarshLogo.png" alt="로고" width="174" height="39">
+=======
+          <img src="resources/img/MarshLogo.png" alt="쿠팡로고" width="174" height="39">
+>>>>>>> refs/rewritten/master-branch-merge
         </a>
       </h1>
       <div class="search">
