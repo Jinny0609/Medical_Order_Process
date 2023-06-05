@@ -8,8 +8,6 @@
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css"><!-- 헤더  -->
   	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"><!-- 헤더  --> 
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>	<!-- banner slide jQuery -->
-	<script src="resources/js/Home.js"></script>
 </head>
 
 <header>
@@ -318,6 +316,10 @@
 <h4 class="group_slider">오늘의 판매자 특가</h4>
 
 </body>
+<!-- script -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>	<!-- banner slide jQuery -->
+<script src="resources/js/Home.js"></script>
+<!-- script -->
 
 <!-- footer -->
 <footer>
