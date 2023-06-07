@@ -46,6 +46,10 @@ public class HomeController {
 		return "Order_complete";
 	}
 	
+<<<<<<< HEAD
 >>>>>>> 76d708c (HomeController /Order_complete add)
 }
 
+=======
+}
+>>>>>>> a0d0c7b (홈컨트롤러 공백 충돌 처리)
