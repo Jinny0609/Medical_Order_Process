@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 /.classpath
+=======
+ï»¿/.classpath
+>>>>>>> cfa3ed2 (Order_complete ìˆ˜ì •)
 /.project
 /.springBeans
 =======
@@ -126,7 +130,11 @@ $RECYCLE.BIN/
 
 # End of https://www.toptal.com/developers/gitignore/api/windows,eclipse,java
 
+<<<<<<< HEAD
 # pem ÇÁ·ÎÆÛÆ¼
+=======
+# pom.properties
+>>>>>>> cfa3ed2 (Order_complete ìˆ˜ì •)
 pom.properties
 
 # Eclipse Core
