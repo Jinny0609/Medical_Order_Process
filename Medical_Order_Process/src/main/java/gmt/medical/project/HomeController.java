@@ -24,6 +24,7 @@ public class HomeController {
 	
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	// Order_complete page
 	@RequestMapping(value = "/Order_complete", method = RequestMethod.GET)
 	public String Order_complete() {
@@ -34,18 +35,25 @@ public class HomeController {
 =======
 	@RequestMapping(value = "/Shipping_address_New", method = RequestMethod.GET)
 >>>>>>> 0c76e9e (충돌일어나기전 미리 수정)
+=======
+	@RequestMapping(value = "/Shipping_address_New", method = RequestMethod.GET)
+>>>>>>> refs/rewritten/juyoon-4
 	public String Shipping_address() {
 		return "Shipping_address_New";
 	}
 	
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> refs/rewritten/master-branch-merge
 =======
+=======
+>>>>>>> refs/rewritten/juyoon-4
 	@RequestMapping(value = "/Order_complete", method = RequestMethod.GET)
 	public String Order_complete() {
 		return "Order_complete";
 	}
 	
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 76d708c (HomeController /Order_complete add)
 }
@@ -53,3 +61,6 @@ public class HomeController {
 =======
 }
 >>>>>>> a0d0c7b (홈컨트롤러 공백 충돌 처리)
+=======
+}
+>>>>>>> refs/rewritten/juyoon-4
