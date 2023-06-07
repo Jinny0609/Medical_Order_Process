@@ -68,6 +68,7 @@ public class HomeController {
 		return "Shipping_address_Edit";
 	}
 	
+<<<<<<< HEAD
 }
 =======
 <<<<<<< HEAD
@@ -82,3 +83,15 @@ public class HomeController {
 }
 >>>>>>> refs/rewritten/juyoon-4
 >>>>>>> refs/rewritten/master-6
+=======
+	@RequestMapping(value = "/Info_edit", method = RequestMethod.GET)
+	public String Info_edit() {
+		return "Info_edit";
+	}
+	
+	@RequestMapping(value = "/Info_edit_Form", method = RequestMethod.GET)
+	public String Info_edit_Form() {
+		return "Info_edit_Form";
+	}
+}
+>>>>>>> a787ce6 (회원정보 수정 페이지 완료)
