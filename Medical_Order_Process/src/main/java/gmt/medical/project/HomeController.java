@@ -23,6 +23,7 @@ public class HomeController {
 	}
 	
 <<<<<<< HEAD
+<<<<<<< HEAD
 	// Order_complete page
 	@RequestMapping(value = "/Order_complete", method = RequestMethod.GET)
 	public String Order_complete() {
@@ -30,8 +31,11 @@ public class HomeController {
 	}
 =======
 	@RequestMapping(value = "/Shipping_address", method = RequestMethod.GET)
+=======
+	@RequestMapping(value = "/Shipping_address_New", method = RequestMethod.GET)
+>>>>>>> 0c76e9e (충돌일어나기전 미리 수정)
 	public String Shipping_address() {
-		return "Shipping_address";
+		return "Shipping_address_New";
 	}
 	
 <<<<<<< HEAD
