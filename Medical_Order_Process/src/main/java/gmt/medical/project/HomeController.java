@@ -131,8 +131,16 @@ public class HomeController {
 	public String Info_edit_Form() {
 		return "Info_edit_Form";
 	}
+<<<<<<< HEAD
 }
 >>>>>>> a787ce6 (회원정보 수정 페이지 완료)
 =======
 >>>>>>> refs/rewritten/master-7
 >>>>>>> refs/rewritten/master-8
+=======
+	@RequestMapping(value = "/Categorie", method = RequestMethod.GET)
+	public String Categorie() {
+		return "Categorie";
+	}
+}
+>>>>>>> 03e5ff1 (Categorie 페이지 완성)
