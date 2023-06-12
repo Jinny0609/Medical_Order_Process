@@ -142,5 +142,14 @@ public class HomeController {
 	public String Categorie() {
 		return "Categorie";
 	}
+<<<<<<< HEAD
 }
 >>>>>>> 03e5ff1 (Categorie 페이지 완성)
+=======
+	
+	@RequestMapping(value = "/Checkout", method = RequestMethod.GET)
+	public String Checkout() {
+		return "Checkout";
+	}
+}
+>>>>>>> 23f31a6 (체크아웃 페이지 완성)
