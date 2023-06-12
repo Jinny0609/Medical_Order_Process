@@ -1,12 +1,8 @@
 package gmt.medical.project;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
-
-import gmt.medical.model.Shipping_address;
-import gmt.medical.service.Shipping_address_Service;
 
 
 @Controller
@@ -160,6 +156,7 @@ public class HomeController {
 >>>>>>> 23f31a6 (체크아웃 페이지 완성)
 =======
 	
+<<<<<<< HEAD
 	@RequestMapping(value = "/saveAddress", method = RequestMethod.GET)
 	public String saveAddress(Shipping_address address) {
 		addressService.saveAddress(address);
@@ -171,3 +168,6 @@ public class HomeController {
     private Shipping_address_Service addressService;
 }
 >>>>>>> 5078813 (배송지주소 데이터 mysql DB SAVE)
+=======
+}
+>>>>>>> 6d136f8 (컨트롤러 수정)
