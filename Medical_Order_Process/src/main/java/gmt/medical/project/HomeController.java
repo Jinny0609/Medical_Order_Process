@@ -25,6 +25,7 @@ public class HomeController {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> refs/rewritten/master-7
@@ -70,11 +71,14 @@ public class HomeController {
 =======
 >>>>>>> refs/rewritten/juyoon-4
 >>>>>>> refs/rewritten/master-7
+=======
+>>>>>>> 073004f (InfoController 수정 2)
 	@RequestMapping(value = "/Order_complete", method = RequestMethod.GET)
 	public String Order_complete() {
 		return "Order_complete";
 	}
 	
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -122,6 +126,8 @@ public class HomeController {
 >>>>>>> refs/rewritten/master-6
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> 073004f (InfoController 수정 2)
 	@RequestMapping(value = "/Info_edit", method = RequestMethod.GET)
 	public String Info_edit() {
 		return "Info_edit";
