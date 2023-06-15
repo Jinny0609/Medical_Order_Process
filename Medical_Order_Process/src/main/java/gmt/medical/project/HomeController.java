@@ -81,6 +81,7 @@ public class HomeController {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 	@RequestMapping(value = "/Shipping_address_List", method = RequestMethod.GET)
 	public String Shipping_address_List() {
@@ -144,6 +145,8 @@ public class HomeController {
 >>>>>>> refs/rewritten/master-7
 >>>>>>> refs/rewritten/master-8
 =======
+=======
+>>>>>>> efa7209 (회원정보 수정 완료)
 	@RequestMapping(value = "/Categorie", method = RequestMethod.GET)
 	public String Categorie() {
 		return "Categorie";
