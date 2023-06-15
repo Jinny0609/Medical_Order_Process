@@ -146,6 +146,8 @@ pom.properties
 
 MANIFEST.MF
 
+# application.properties
+application.properties
 
 
 >>>>>>> refs/rewritten/gitignore-Hojun-s-branch-Merged-Main-Page-complete-
