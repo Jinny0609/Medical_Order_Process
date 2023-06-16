@@ -31,11 +31,6 @@ public class HomeController {
 		return "Home";
 >>>>>>> f837618 (카테고리 헤더부분과 카테고리 페이지 부분 카테고리 id키추가)
 	}
-
-	@RequestMapping(value = "/Product_details", method = RequestMethod.GET)
-	public String Product_details() {
-		return "Product_details";
-	}
 	
 	@RequestMapping(value = "/Order_list", method = RequestMethod.GET)
 	public String Order_list() {
