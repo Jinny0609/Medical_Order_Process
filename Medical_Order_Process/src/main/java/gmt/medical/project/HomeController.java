@@ -102,6 +102,7 @@ public class HomeController {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 	@RequestMapping(value = "/Shipping_address_List", method = RequestMethod.GET)
 	public String Shipping_address_List() {
@@ -176,6 +177,8 @@ public class HomeController {
 >>>>>>> 03e5ff1 (Categorie 페이지 완성)
 =======
 	
+=======
+>>>>>>> 8029d90 (카테고리 상품정보 갖고오기 (이미지아직 안됨))
 	@RequestMapping(value = "/Checkout", method = RequestMethod.GET)
 	public String Checkout() {
 		return "Checkout";
