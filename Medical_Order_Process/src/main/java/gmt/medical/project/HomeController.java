@@ -1,20 +1,35 @@
 package gmt.medical.project;
 
+import java.util.List;
+
+import javax.servlet.http.HttpSession;
+
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
+import gmt.medical.model.Categories;
+import gmt.medical.service.CategoryService;
+
 
 @Controller
 public class HomeController {
+	
+	@Autowired
+	private CategoryService categoryService;
+	
 	@RequestMapping(value = "/", method = RequestMethod.GET)
+<<<<<<< HEAD
 	public String home() {
 		return "home";
-	}
-
-	@RequestMapping(value = "/Product_details", method = RequestMethod.GET)
-	public String Product_details() {
-		return "Product_details";
+=======
+	public String home(HttpSession session,Categories categories) {
+		// 카테고리 목록 불러오기
+		List<Categories> category = categoryService.getcategory();
+		session.setAttribute("Category", category);
+		return "Home";
+>>>>>>> f837618 (카테고리 헤더부분과 카테고리 페이지 부분 카테고리 id키추가)
 	}
 	
 	@RequestMapping(value = "/Order_list", method = RequestMethod.GET)
@@ -78,6 +93,7 @@ public class HomeController {
 		return "Order_complete";
 	}
 	
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -156,6 +172,8 @@ public class HomeController {
 >>>>>>> 03e5ff1 (Categorie 페이지 완성)
 =======
 	
+=======
+>>>>>>> 8029d90 (카테고리 상품정보 갖고오기 (이미지아직 안됨))
 	@RequestMapping(value = "/Checkout", method = RequestMethod.GET)
 	public String Checkout() {
 		return "Checkout";
