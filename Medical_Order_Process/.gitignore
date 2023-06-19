@@ -149,5 +149,7 @@ MANIFEST.MF
 # application.properties
 application.properties
 
+# target 추적 안하게
+target/
 
 >>>>>>> refs/rewritten/gitignore-Hojun-s-branch-Merged-Main-Page-complete-
