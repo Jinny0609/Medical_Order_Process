@@ -26,7 +26,11 @@ public class Product_option {
 
 	@Override
 	public String toString() {
+<<<<<<< HEAD
 	    return "Product_option : {" +
+=======
+	    return "{" +
+>>>>>>> refs/rewritten/hojun-5
 	            "product_id=" + product_id +
 	            ", option_name='" + option_name + '\'' +
 	            ", category_id=" + category_id +
