@@ -1,6 +1,5 @@
 package gmt.medical.project;
 
-import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -129,6 +128,7 @@ public class ProductController {
 	        return null;
 	    }
 	}
+<<<<<<< HEAD
 	
 //	private String saveImageFile(MultipartFile file, String fileName, String categoryId) {
 //	    String uploadDirectory = "C:\\Users\\GR\\Desktop\\Category\\" + categoryId + "\\";
@@ -168,5 +168,10 @@ public class ProductController {
 //	}
 //}
 =======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 681e725 (병합 전 commit)
+>>>>>>> refs/rewritten/hojun-6
 }
 >>>>>>> refs/rewritten/hojun-5
