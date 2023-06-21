@@ -3,10 +3,15 @@ package gmt.medical.model;
 import java.util.List;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 import org.springframework.web.multipart.MultipartFile;
 
 >>>>>>> refs/rewritten/hojun-5
+=======
+import org.springframework.web.multipart.MultipartFile;
+
+>>>>>>> refs/rewritten/Gyusun-3
 public class Product_info {
 	private int product_id;
     private String product_image;
@@ -15,6 +20,7 @@ public class Product_info {
     private int product_count;
     private String image_path;
     private int category_id;
+<<<<<<< HEAD
 <<<<<<< HEAD
     private List<String> optionNames;
     
@@ -37,6 +43,11 @@ public class Product_info {
     private List<String> optionNames;
     
 >>>>>>> refs/rewritten/hojun-5
+=======
+    private MultipartFile save_image;
+    private List<String> optionNames;
+    
+>>>>>>> refs/rewritten/Gyusun-3
 	public int getProduct_id() {
 		return product_id;
 	}
@@ -80,14 +91,20 @@ public class Product_info {
 		this.category_id = category_id;
 	}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> refs/rewritten/Gyusun-3
 	public MultipartFile getSave_image() {
 		return save_image;
 	}
 	public void setSave_image(MultipartFile save_image) {
 		this.save_image = save_image;
 	}
+<<<<<<< HEAD
 >>>>>>> refs/rewritten/hojun-5
+=======
+>>>>>>> refs/rewritten/Gyusun-3
 	public List<String> getOptionNames() {
 		return optionNames;
 	}
@@ -95,7 +112,10 @@ public class Product_info {
 		this.optionNames = optionNames;
 	}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> refs/rewritten/Gyusun-3
 	   
     @Override
     public String toString() {
@@ -112,5 +132,8 @@ public class Product_info {
                 '}';
     }
 	
+<<<<<<< HEAD
 >>>>>>> refs/rewritten/hojun-5
+=======
+>>>>>>> refs/rewritten/Gyusun-3
 }
