@@ -152,4 +152,10 @@ application.properties
 # target 추적 안하게
 target/
 
+<<<<<<< HEAD
 >>>>>>> refs/rewritten/gitignore-Hojun-s-branch-Merged-Main-Page-complete-
+=======
+# root-context.xml 제외
+/root-context.xml
+
+>>>>>>> 6746025 (gitignore 수정)
