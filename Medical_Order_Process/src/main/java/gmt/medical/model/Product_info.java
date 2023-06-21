@@ -41,13 +41,23 @@ public class Product_info {
 =======
     private MultipartFile save_image;
     private List<String> optionNames;
+    private String cart_option;
     
+<<<<<<< HEAD
 >>>>>>> refs/rewritten/hojun-5
 =======
     private MultipartFile save_image;
     private List<String> optionNames;
     
 >>>>>>> refs/rewritten/Gyusun-3
+=======
+	public String getCart_option() {
+		return cart_option;
+	}
+	public void setCart_option(String cart_option) {
+		this.cart_option = cart_option;
+	}
+>>>>>>> 4112a66 (프로덕트 인포 모델 수정)
 	public int getProduct_id() {
 		return product_id;
 	}
