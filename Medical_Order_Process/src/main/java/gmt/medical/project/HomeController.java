@@ -98,6 +98,7 @@ public class HomeController {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 	@RequestMapping(value = "/Shipping_address_List", method = RequestMethod.GET)
 	public String Shipping_address_List() {
@@ -182,6 +183,8 @@ public class HomeController {
 }
 >>>>>>> 23f31a6 (체크아웃 페이지 완성)
 =======
+=======
+>>>>>>> 4b96713 (제품 구매 확정 페이지 작업중)
 	
 <<<<<<< HEAD
 	@RequestMapping(value = "/saveAddress", method = RequestMethod.GET)
