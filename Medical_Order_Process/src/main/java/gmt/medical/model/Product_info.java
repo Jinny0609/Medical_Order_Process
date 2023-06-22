@@ -4,14 +4,20 @@ import java.util.List;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> refs/rewritten/hojun-6
 =======
 import org.springframework.web.multipart.MultipartFile;
 
 >>>>>>> refs/rewritten/hojun-5
+<<<<<<< HEAD
 =======
 import org.springframework.web.multipart.MultipartFile;
 
 >>>>>>> refs/rewritten/Gyusun-3
+=======
+>>>>>>> refs/rewritten/hojun-6
 public class Product_info {
 	private int product_id;
     private String product_image;
@@ -22,6 +28,9 @@ public class Product_info {
     private int category_id;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> refs/rewritten/hojun-6
     private List<String> optionNames;
     
     @Override
@@ -41,6 +50,7 @@ public class Product_info {
 =======
     private MultipartFile save_image;
     private List<String> optionNames;
+<<<<<<< HEAD
     private String cart_option;
     
 <<<<<<< HEAD
@@ -58,6 +68,10 @@ public class Product_info {
 		this.cart_option = cart_option;
 	}
 >>>>>>> 4112a66 (프로덕트 인포 모델 수정)
+=======
+    
+>>>>>>> refs/rewritten/hojun-5
+>>>>>>> refs/rewritten/hojun-6
 	public int getProduct_id() {
 		return product_id;
 	}
@@ -102,9 +116,13 @@ public class Product_info {
 	}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> refs/rewritten/Gyusun-3
+=======
+=======
+>>>>>>> refs/rewritten/hojun-6
 	public MultipartFile getSave_image() {
 		return save_image;
 	}
@@ -112,9 +130,13 @@ public class Product_info {
 		this.save_image = save_image;
 	}
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> refs/rewritten/hojun-5
 =======
 >>>>>>> refs/rewritten/Gyusun-3
+=======
+>>>>>>> refs/rewritten/hojun-5
+>>>>>>> refs/rewritten/hojun-6
 	public List<String> getOptionNames() {
 		return optionNames;
 	}
@@ -123,9 +145,13 @@ public class Product_info {
 	}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> refs/rewritten/Gyusun-3
+=======
+=======
+>>>>>>> refs/rewritten/hojun-6
 	   
     @Override
     public String toString() {
@@ -143,7 +169,11 @@ public class Product_info {
     }
 	
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> refs/rewritten/hojun-5
 =======
 >>>>>>> refs/rewritten/Gyusun-3
+=======
+>>>>>>> refs/rewritten/hojun-5
+>>>>>>> refs/rewritten/hojun-6
 }
