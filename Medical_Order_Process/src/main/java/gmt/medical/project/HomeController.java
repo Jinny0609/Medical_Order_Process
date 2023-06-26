@@ -157,6 +157,7 @@ public class HomeController {
 	    return "Order_complete";
 	}
 <<<<<<< HEAD
+<<<<<<< HEAD
 	
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -273,3 +274,12 @@ public class HomeController {
 =======
 }
 >>>>>>> 34b370d (주문완료 완성)
+=======
+	
+	@RequestMapping(value = "/admin_page", method = RequestMethod.GET)
+	public String admin() {
+		// 관리자페이지 이동
+		return "admin_page";
+	}
+}
+>>>>>>> caabeec (관리자 페이지 이동기능 추가)
